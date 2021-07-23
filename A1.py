@@ -1,4 +1,5 @@
 a = 10
 for i in range(a):
-    print(i)
+    if i // 2 == 2:
+        print(i)
 
